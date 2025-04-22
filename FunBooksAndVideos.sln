@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunBooksAndVideos.Api", "FunBooksAndVideos.Api\FunBooksAndVideos.Api.csproj", "{6EA753D7-C26F-4C38-870C-F035ADE6F3B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunBooksAndVideos.Core", "FunBooksAndVideos.Core\FunBooksAndVideos.Core.csproj", "{485A9CB4-A2A0-4354-AD86-B87D4F17B28D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EA753D7-C26F-4C38-870C-F035ADE6F3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA753D7-C26F-4C38-870C-F035ADE6F3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA753D7-C26F-4C38-870C-F035ADE6F3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA753D7-C26F-4C38-870C-F035ADE6F3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485A9CB4-A2A0-4354-AD86-B87D4F17B28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485A9CB4-A2A0-4354-AD86-B87D4F17B28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485A9CB4-A2A0-4354-AD86-B87D4F17B28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485A9CB4-A2A0-4354-AD86-B87D4F17B28D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
