@@ -1,6 +1,6 @@
-using FunBooksAndVideos.Enums;
+using FunBooksAndVideos.Core.Enums;
 
-namespace FunBooksAndVideos.Services;
+namespace FunBooksAndVideos.Core.Interfaces.Services;
 
 public interface ICustomerMembershipService
 {

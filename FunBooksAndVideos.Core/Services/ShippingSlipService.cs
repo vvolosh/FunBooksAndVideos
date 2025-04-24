@@ -1,7 +1,8 @@
-using FunBooksAndVideos.Entities.Products;
+using FunBooksAndVideos.Core.Entities.Products;
+using FunBooksAndVideos.Core.Interfaces.Services;
 using Microsoft.Extensions.Logging;
 
-namespace FunBooksAndVideos.Services;
+namespace FunBooksAndVideos.Core.Services;
 
 public class ShippingSlipService : IShippingSlipService
 {

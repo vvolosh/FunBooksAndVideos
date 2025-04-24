@@ -1,7 +1,8 @@
-using FunBooksAndVideos.Entities;
-using FunBooksAndVideos.Handlers;
+using FunBooksAndVideos.Core.Entities;
+using FunBooksAndVideos.Core.Interfaces.Handlers;
+using FunBooksAndVideos.Core.Interfaces.Services;
 
-namespace FunBooksAndVideos.Services;
+namespace FunBooksAndVideos.Core.Services;
 
 public class PurchaseOrderService : IPurchaseOrderService
 {
@@ -17,6 +18,12 @@ public class PurchaseOrderService : IPurchaseOrderService
         foreach (var item in order.Items)
         {
             var handler = _handlers.FirstOrDefault(h => h.CanHandle(item));
+            if (handler is null)
+            {
+                context.Errors.Add($"No handler found for product type {item.ProductType}");
+                continue;
+            }
+
             handler?.Handle(item, context);
         }
         

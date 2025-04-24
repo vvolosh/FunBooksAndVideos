@@ -1,6 +1,6 @@
-using FunBooksAndVideos.Entities.Products;
+using FunBooksAndVideos.Core.Entities.Products;
 
-namespace FunBooksAndVideos.Services;
+namespace FunBooksAndVideos.Core.Interfaces.Services;
 
 public interface IShippingSlipService
 {

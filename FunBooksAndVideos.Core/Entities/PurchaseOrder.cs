@@ -1,6 +1,6 @@
-using FunBooksAndVideos.Entities.Products;
+using FunBooksAndVideos.Core.Entities.Products;
 
-namespace FunBooksAndVideos.Entities;
+namespace FunBooksAndVideos.Core.Entities;
 
 public class PurchaseOrder
 {

@@ -1,6 +1,6 @@
-using FunBooksAndVideos.Enums;
+using FunBooksAndVideos.Core.Enums;
 
-namespace FunBooksAndVideos.Entities.Products;
+namespace FunBooksAndVideos.Core.Entities.Products;
 
 public class Video : Product
 {

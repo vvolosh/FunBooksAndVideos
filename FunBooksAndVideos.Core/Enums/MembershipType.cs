@@ -1,3 +1,3 @@
-namespace FunBooksAndVideos.Enums;
+namespace FunBooksAndVideos.Core.Enums;
 
 public enum MembershipType { BookClub, VideoClub, Premium }

@@ -1,7 +1,8 @@
-using FunBooksAndVideos.Enums;
+using FunBooksAndVideos.Core.Enums;
+using FunBooksAndVideos.Core.Interfaces.Services;
 using Microsoft.Extensions.Logging;
 
-namespace FunBooksAndVideos.Services;
+namespace FunBooksAndVideos.Core.Services;
 
 public class CustomerMembershipService : ICustomerMembershipService
 {

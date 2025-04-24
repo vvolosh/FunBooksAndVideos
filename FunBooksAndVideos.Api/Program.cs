@@ -1,5 +1,7 @@
-using FunBooksAndVideos.Handlers;
-using FunBooksAndVideos.Services;
+using FunBooksAndVideos.Core.Handlers;
+using FunBooksAndVideos.Core.Interfaces.Handlers;
+using FunBooksAndVideos.Core.Interfaces.Services;
+using FunBooksAndVideos.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

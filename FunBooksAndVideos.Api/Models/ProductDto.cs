@@ -1,4 +1,4 @@
-using FunBooksAndVideos.Enums;
+using FunBooksAndVideos.Core.Enums;
 
 namespace FunBooksAndVideos.Api.Models;
 

@@ -1,7 +1,7 @@
 using FunBooksAndVideos.Api.Models;
-using FunBooksAndVideos.Entities;
-using FunBooksAndVideos.Entities.Products;
-using FunBooksAndVideos.Enums;
+using FunBooksAndVideos.Core.Entities;
+using FunBooksAndVideos.Core.Entities.Products;
+using FunBooksAndVideos.Core.Enums;
 
 namespace FunBooksAndVideos.Api.Mappers;
 

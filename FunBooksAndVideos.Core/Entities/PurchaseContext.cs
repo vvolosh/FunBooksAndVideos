@@ -1,6 +1,6 @@
-using FunBooksAndVideos.Enums;
+using FunBooksAndVideos.Core.Enums;
 
-namespace FunBooksAndVideos.Entities;
+namespace FunBooksAndVideos.Core.Entities;
 
 public class PurchaseContext
 {

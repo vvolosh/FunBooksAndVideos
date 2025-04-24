@@ -1,8 +1,9 @@
-using FunBooksAndVideos.Entities;
-using FunBooksAndVideos.Entities.Products;
-using FunBooksAndVideos.Services;
+using FunBooksAndVideos.Core.Entities;
+using FunBooksAndVideos.Core.Entities.Products;
+using FunBooksAndVideos.Core.Interfaces.Handlers;
+using FunBooksAndVideos.Core.Interfaces.Services;
 
-namespace FunBooksAndVideos.Handlers;
+namespace FunBooksAndVideos.Core.Handlers;
 
 public class BookHandler : IProductHandler
 {

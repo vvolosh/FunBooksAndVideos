@@ -1,8 +1,9 @@
-using FunBooksAndVideos.Entities;
-using FunBooksAndVideos.Entities.Products;
+using FunBooksAndVideos.Core.Entities;
+using FunBooksAndVideos.Core.Entities.Products;
+using FunBooksAndVideos.Core.Interfaces.Handlers;
 using Microsoft.Extensions.Logging;
 
-namespace FunBooksAndVideos.Handlers;
+namespace FunBooksAndVideos.Core.Handlers;
 
 public class VideoHandler(ILogger<VideoHandler> logger) : IProductHandler
 {

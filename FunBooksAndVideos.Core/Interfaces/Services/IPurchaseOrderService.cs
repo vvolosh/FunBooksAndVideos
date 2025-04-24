@@ -1,6 +1,6 @@
-using FunBooksAndVideos.Entities;
+using FunBooksAndVideos.Core.Entities;
 
-namespace FunBooksAndVideos.Services;
+namespace FunBooksAndVideos.Core.Interfaces.Services;
 
 public interface IPurchaseOrderService
 {
